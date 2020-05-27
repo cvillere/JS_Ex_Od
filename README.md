@@ -6,9 +6,13 @@ Implement the legendary caesar cipher:
 
 write a function that takes a string to be encoded and a shift factor and then returns the encoded string:
 
+
+
 ```javascript
 caesar('A', 1) // simply shifts the letter by 1: returns 'B'
 ```
+
+
 
 the cipher should retain capitalization:
 ```javascript
@@ -30,4 +34,6 @@ negative numbers should work as well:
 caesar('Mjqqt, Btwqi!', -5) // returns 'Hello, World!'
 ```
 
-
+Resources
+1) How to wrap around an array. 
+https://stackoverflow.com/questions/52883995/how-to-loop-through-wrap-around-an-array-based-on-starting-index
